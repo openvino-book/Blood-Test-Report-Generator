@@ -12,6 +12,11 @@ Medical test reports are highly sensitive personal data that are difficult to co
 - **Single Column Layout** (`generate_one_col.py`): Classic vertical layout with 25 standard CBC parameters
 - **Two Column Layout** (`generate_two_cols.py`): Modern dual-column layout with enhanced patient information
 
+<div style="display: flex; justify-content: space-between;">
+  <img src=".\two_cols.png" alt="Two Column Layout" width="45%">
+  <img src="report_1.png" alt="Single Column Layout" width="45%">
+</div>
+
 ### Key Capabilities
 - ✅ **Realistic Medical Data**: Generates clinically accurate blood test values with proper reference ranges
 - ✅ **Patient Information**: Synthetic patient data including name, gender, age, medical record numbers
@@ -129,5 +134,6 @@ This project is open source and available under the MIT License.
 - Faker library for realistic patient data generation
 
 ---
+
 
 **Note**: This tool generates synthetic medical data for research and development purposes only. Always consult qualified healthcare professionals for medical diagnosis and treatment.
